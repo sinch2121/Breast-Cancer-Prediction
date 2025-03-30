@@ -2,9 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-
-import os
-os.system("pip install plotly==5.11.0")
 import plotly.graph_objects as go
 
 import os
