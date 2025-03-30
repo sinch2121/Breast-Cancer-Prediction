@@ -10,8 +10,6 @@ subprocess.check_call(["pip", "install", "numpy==1.23.4", "pandas==1.5.1",
                         "scikit-learn==1.2.2", "streamlit==1.18.1", 
                         "altair<5.0.0"])
 
-
-
 def get_clean_data():
   data = pd.read_csv("data/data.csv")
   
