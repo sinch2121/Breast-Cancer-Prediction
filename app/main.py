@@ -4,8 +4,11 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 
-import os
-os.system("pip install numpy==1.23.4 pandas==1.5.1 pickle5==0.0.11 plotly==5.11.0 scikit-learn==1.2.2 streamlit==1.18.1 altair<5.0.0")
+import subprocess
+subprocess.check_call(["pip", "install", "numpy==1.23.4", "pandas==1.5.1", 
+                        "pickle5==0.0.11", "plotly==5.11.0", 
+                        "scikit-learn==1.2.2", "streamlit==1.18.1", 
+                        "altair<5.0.0"])
 
 
 
