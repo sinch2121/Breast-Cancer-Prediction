@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import plotly.graph_objects as go
+import plotly.graph_objects as go # type: ignore
 import numpy as np
 
 
